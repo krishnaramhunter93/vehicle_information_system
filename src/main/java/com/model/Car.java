@@ -4,6 +4,7 @@ import com.interfaces.CarVehicle;
 
 //Class implementing CarVehicle interface, representing a car
 public class Car implements CarVehicle {
+	private String github;
 	private String make;
 	private String model;
 	private int yearOfManufacture;
